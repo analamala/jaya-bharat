@@ -1,11 +1,12 @@
 <template>
   <v-app>
     <v-main>
-      <HelloWorld />
+      <TopNavBar />
+      <router-view />
     </v-main>
   </v-app>
 </template>
 
 <script setup lang="ts">
-  import HelloWorld from '@/components/HelloWorld.vue'
+  import TopNavBar from '@/core/TopNavBar.vue'
 </script>
