@@ -19,6 +19,9 @@
           <v-col>
             <ElectricDozerSummary />
           </v-col>
+          <v-col>
+            <HydraulicCylinderSummary />
+          </v-col>
         </v-row>
       </v-container>
     </v-card-text>
@@ -32,4 +35,5 @@ import SAGESSummary from "@/components/Products/SAGESSummary.vue";
 import FeederBreakerSummary from "@/components/Products/FeederBreakerSummary.vue";
 import EquipmentRetrieverSummary from "@/components/Products/EquipmentRetrieverSummary.vue";
 import ElectricDozerSummary from "@/components/Products/ElectricDozerSummary.vue";
+import HydraulicCylinderSummary from "@/components/Products/HydraulicCylinderSummary.vue";
 </script>

@@ -1,5 +1,5 @@
 <template>
-  <v-card class="mx-auto" max-width="240">
+  <v-card class="mx-auto" min-width="240" max-width="240">
     <v-card-item title="Feeder Breaker">
     </v-card-item>
     <v-card-text>

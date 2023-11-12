@@ -1,5 +1,5 @@
 <template>
-  <v-card className="mx-auto" max-width="240">
+  <v-card className="mx-auto" min-width="240" max-width="240">
     <v-card-item title="Equipment Retriever">
     </v-card-item>
     <v-card-text>
