@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-container fluid class="mb-6">
+    <v-container fluid>
       <v-row>
         <v-col>
           <h2>Self Advancing (mobile) Goaf Edge Support (SAGES)</h2>

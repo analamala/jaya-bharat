@@ -28,6 +28,12 @@ const routes = [
         component: () => import(/* webpackChunkName: "sagesDetail" */ '@/components/products/SAGESDetail.vue'),
       },
       {
+        path: 'feederBreakerDetail',
+        name: 'FeederBreakerDetail',
+        component: () => import(/* webpackChunkName: "feederBreakerDetail" */
+          '@/components/products/FeederBreakerDetail.vue'),
+      },
+      {
         path: 'services',
         name: 'Services',
         component: () => import(/* webpackChunkName: "services" */ '@/views/Services.vue'),
