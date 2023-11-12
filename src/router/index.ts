@@ -40,6 +40,12 @@ const routes = [
           '@/components/products/EquipmentRetrieverDetail'),
       },
       {
+        path: 'electricDozerDetail',
+        name: 'ElectricDozerDetail',
+        component: () => import(/* webpackChunkName: "electricDozerDetail" */
+          '@/components/products/ElectricDozerDetail'),
+      },
+      {
         path: 'services',
         name: 'Services',
         component: () => import(/* webpackChunkName: "services" */ '@/views/Services.vue'),
