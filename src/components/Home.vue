@@ -1,15 +1,12 @@
 <template>
-  <v-img src="@/assets/products-collage.jpeg">
-  </v-img>
-  <div class="text-center">
-    <span class="text-h6">Manufacturer & Service Provider</span>
-    <span class="text-decoration-none">
-    For Mining, Construction & Other Industries Since 1995
-  </span>
-  </div>
-
+  <v-img src="@/assets/images/products-collage.jpeg" />
+  <AboutUs class="my-5"></AboutUs>
+  <v-divider color="grey-darken-4"/>
+  <Products class="my-5"></Products>
 </template>
 
 <script setup lang="ts">
 //
+import AboutUs from "@/components/AboutUs.vue";
+import Products from "@/views/Products.vue";
 </script>
