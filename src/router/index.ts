@@ -34,6 +34,12 @@ const routes = [
           '@/components/products/FeederBreakerDetail.vue'),
       },
       {
+        path: 'equipmentRetrieverDetail',
+        name: 'EquipmentRetrieverDetail',
+        component: () => import(/* webpackChunkName: "equipmentRetrieverDetail" */
+          '@/components/products/EquipmentRetrieverDetail'),
+      },
+      {
         path: 'services',
         name: 'Services',
         component: () => import(/* webpackChunkName: "services" */ '@/views/Services.vue'),

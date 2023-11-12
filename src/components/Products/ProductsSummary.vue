@@ -14,10 +14,7 @@
             <FeederBreakerSummary />
           </v-col>
           <v-col>
-            <v-img class="rounded-circle"
-                   width="300px" height="180px"
-                   src="@/assets/images/SAGES-product.png">
-            </v-img>
+            <EquipmentRetrieverSummary />
           </v-col>
         </v-row>
       </v-container>
@@ -30,4 +27,5 @@
 import ProductsIcon from "@/components/icons/ProductsIcon.vue";
 import SAGESSummary from "@/components/Products/SAGESSummary.vue";
 import FeederBreakerSummary from "@/components/Products/FeederBreakerSummary.vue";
+import EquipmentRetrieverSummary from "@/components/Products/EquipmentRetrieverSummary.vue";
 </script>
