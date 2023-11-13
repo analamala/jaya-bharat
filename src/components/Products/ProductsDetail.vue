@@ -1,11 +1,11 @@
 <template>
-  <v-card flat="true">
+  <v-card flat class="mt-3">
     <v-card-title class="text-center">
       <v-icon class="mr-1"><ProductsIcon/></v-icon>
       OUR PRODUCTS
     </v-card-title>
   </v-card>
-  <SAGESDetail class="mb-4"/>
+  <SagesDetail class="mb-4"/>
   <v-divider></v-divider>
   <FeederBreakerDetail class="mt-2 mb-4"/>
   <v-divider></v-divider>
@@ -21,7 +21,7 @@
 </template>
 
 <script setup lang="ts">
-import SAGESDetail from "@/components/Products/SAGESDetail.vue";
+import SagesDetail from "@/components/Products/SagesDetail.vue";
 import FeederBreakerDetail from "@/components/Products/FeederBreakerDetail.vue";
 import EquipmentRetrieverDetail from "@/components/Products/EquipmentRetrieverDetail.vue";
 import ElectricDozerDetail from "@/components/Products/ElectricDozerDetail.vue";

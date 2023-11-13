@@ -12,7 +12,7 @@
     </v-btn>
     <v-btn>
       <v-icon class="mr-1"><ProductsIcon /></v-icon>
-      <router-link class="text-black" to="/products">
+      <router-link class="text-black" to="/products/allProducts">
         PRODUCTS
       </router-link>
     </v-btn>

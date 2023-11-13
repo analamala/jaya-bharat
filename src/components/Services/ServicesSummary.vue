@@ -1,5 +1,5 @@
 <template>
-  <v-card flat="true">
+  <v-card flat class="mt-3">
     <v-card-title class="text-center">
       <v-icon class="mr-1"><ServicesIcon/></v-icon>
       OUR SERVICES
@@ -82,7 +82,7 @@
 </template>
 
 <script setup lang="ts">
-import SAGESSummary from "@/components/Products/SAGESSummary.vue";
+import SAGESSummary from "@/components/Products/SagesSummary.vue";
 import FeederBreakerSummary from "@/components/Products/FeederBreakerSummary.vue";
 import EquipmentRetrieverSummary from "@/components/Products/EquipmentRetrieverSummary.vue";
 import ElectricDozerSummary from "@/components/Products/ElectricDozerSummary.vue";

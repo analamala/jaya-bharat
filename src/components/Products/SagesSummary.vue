@@ -14,7 +14,7 @@
         <v-col>
           Self Advancing (mobile) Goaf Edge Support (SAGES) is a unique patented base lift design where
           the base slides inside the under carriage...
-          <router-link to="/sagesDetail">MORE</router-link>
+          <router-link to="/products/sagesDetail">MORE</router-link>
         </v-col>
       </v-row>
     </v-card-text>

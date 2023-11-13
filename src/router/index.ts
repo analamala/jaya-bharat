@@ -1,5 +1,12 @@
-// Composables
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHistory } from 'vue-router';
+import ProductsDetail from "@/components/Products/ProductsDetail.vue";
+import SagesDetail from "@/components/Products/SagesDetail.vue";
+import FeederBreakerDetail from "@/components/Products/FeederBreakerDetail.vue";
+import EquipmentRetrieverDetail from "@/components/Products/EquipmentRetrieverDetail.vue";
+import ElectricDozerDetail from "@/components/Products/ElectricDozerDetail.vue";
+import HydraulicCylinderDetail from "@/components/Products/HydraulicCylinderDetail.vue";
+import DrillAndBolterDetail from "@/components/Products/DrillAndBolterDetail.vue";
+import PowerPackDetail from "@/components/Products/PowerPackDetail.vue";
 
 const routes = [
   {
@@ -21,47 +28,48 @@ const routes = [
         // this generates a separate chunk (about.[hash].js) for this route
         // which is lazy-loaded when the route is visited.
         component: () => import(/* webpackChunkName: "products" */ '@/views/Products.vue'),
-      },
-      {
-        path: 'sagesDetail',
-        name: 'SAGESDetail',
-        component: () => import(/* webpackChunkName: "sagesDetail" */ '@/components/products/SAGESDetail.vue'),
-      },
-      {
-        path: 'feederBreakerDetail',
-        name: 'FeederBreakerDetail',
-        component: () => import(/* webpackChunkName: "feederBreakerDetail" */
-          '@/components/products/FeederBreakerDetail.vue'),
-      },
-      {
-        path: 'equipmentRetrieverDetail',
-        name: 'EquipmentRetrieverDetail',
-        component: () => import(/* webpackChunkName: "equipmentRetrieverDetail" */
-          '@/components/products/EquipmentRetrieverDetail'),
-      },
-      {
-        path: 'electricDozerDetail',
-        name: 'ElectricDozerDetail',
-        component: () => import(/* webpackChunkName: "electricDozerDetail" */
-          '@/components/products/ElectricDozerDetail'),
-      },
-      {
-        path: 'hydraulicCylinderDetail',
-        name: 'HydraulicCylinderDetail',
-        component: () => import(/* webpackChunkName: "hydraulicCylinderDetail" */
-          '@/components/products/HydraulicCylinderDetail'),
-      },
-      {
-        path: 'drillAndBolterDetail',
-        name: 'DrillAndBolterDetail',
-        component: () => import(/* webpackChunkName: "drillAndBolterDetail" */
-          '@/components/products/DrillAndBolterDetail'),
-      },
-      {
-        path: 'powerPackDetail',
-        name: 'PowerPackDetail',
-        component: () => import(/* webpackChunkName: "powerPackDetail" */
-          '@/components/products/PowerPackDetail'),
+        children: [
+          {
+            path: 'allProducts',
+            name: 'AllProducts',
+            component: ProductsDetail
+          },
+          {
+            path: 'sagesDetail',
+            name: 'SagesDetail',
+            component: SagesDetail
+          },
+          {
+            path: 'feederBreakerDetail',
+            name: 'FeederBreakerDetail',
+            component: FeederBreakerDetail,
+          },
+          {
+            path: 'equipmentRetrieverDetail',
+            name: 'EquipmentRetrieverDetail',
+            component: EquipmentRetrieverDetail,
+          },
+          {
+            path: 'electricDozerDetail',
+            name: 'ElectricDozerDetail',
+            component: ElectricDozerDetail,
+},
+          {
+            path: 'hydraulicCylinderDetail',
+            name: 'HydraulicCylinderDetail',
+            component: HydraulicCylinderDetail,
+},
+          {
+            path: 'drillAndBolterDetail',
+            name: 'DrillAndBolterDetail',
+            component: DrillAndBolterDetail,
+},
+          {
+            path: 'powerPackDetail',
+            name: 'PowerPackDetail',
+            component: PowerPackDetail,
+}
+        ]
       },
       {
         path: 'services',
@@ -72,7 +80,7 @@ const routes = [
         path: 'contact',
         name: 'Contact',
         component: () => import(/* webpackChunkName: "contact" */ '@/views/Contact.vue'),
-      },
+      }
     ],
   },
 ]

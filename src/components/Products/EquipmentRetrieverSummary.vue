@@ -14,7 +14,7 @@
         <v-col>
           The Equipment Retriever is designed to assist the underground mining industry in the
           recovery of Continuous Miners (CM) involved in...
-          <router-link to="/equipmentRetrieverDetail">MORE</router-link>
+          <router-link to="/products/equipmentRetrieverDetail">MORE</router-link>
         </v-col>
       </v-row>
     </v-card-text>

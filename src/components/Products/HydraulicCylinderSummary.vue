@@ -14,7 +14,7 @@
         <v-col>
           The company specializes in manufacturing high pressure (450 Bar Dynamic and 1800 Bar Static) Hydraulic
           Cylinders for under ground Coal...
-          <router-link to="/hydraulicCylinderDetail">MORE</router-link>
+          <router-link to="/products/hydraulicCylinderDetail">MORE</router-link>
         </v-col>
       </v-row>
     </v-card-text>

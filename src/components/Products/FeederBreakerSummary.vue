@@ -14,7 +14,7 @@
         <v-col>
           The Feeder Breaker is intended to Receive R.O.M Coal from L.H.Ds/Mine Cars and Feed the Coal
           on to the out-bye Conveyor after crushing the...
-          <router-link to="/feederBreakerDetail">MORE</router-link>
+          <router-link to="/products/feederBreakerDetail">MORE</router-link>
         </v-col>
       </v-row>
     </v-card-text>

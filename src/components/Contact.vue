@@ -1,5 +1,5 @@
 <template>
-  <v-card flat="true" class="mt-3">
+  <v-card flat class="mt-3">
     <v-card-title class="text-center">
       <v-icon class="mr-1">mdi-phone</v-icon>
       CONTACT US

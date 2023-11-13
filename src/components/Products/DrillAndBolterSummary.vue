@@ -14,7 +14,7 @@
         <v-col>
           This is a compact crawler mounted Universal Drilling and Bolting machine. The Drill heads rotation
           is by Hydraulic Motor through a Gear...
-          <router-link to="/drillAndBolterDetail">MORE</router-link>
+          <router-link to="/products/drillAndBolterDetail">MORE</router-link>
         </v-col>
       </v-row>
     </v-card-text>

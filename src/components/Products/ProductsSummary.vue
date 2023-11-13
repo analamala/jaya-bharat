@@ -1,5 +1,5 @@
 <template>
-  <v-card flat="true">
+  <v-card flat>
     <v-card-title class="text-center">
       <v-icon class="mr-1"><ProductsIcon/></v-icon>
       OUR PRODUCTS
@@ -8,7 +8,7 @@
       <v-container>
         <v-row>
           <v-col>
-            <SAGESSummary/>
+            <SagesSummary/>
           </v-col>
           <v-col>
             <FeederBreakerSummary />
@@ -37,7 +37,7 @@
 <script setup lang="ts">
 //
 import ProductsIcon from "@/components/icons/ProductsIcon.vue";
-import SAGESSummary from "@/components/Products/SAGESSummary.vue";
+import SagesSummary from "@/components/Products/SagesSummary.vue";
 import FeederBreakerSummary from "@/components/Products/FeederBreakerSummary.vue";
 import EquipmentRetrieverSummary from "@/components/Products/EquipmentRetrieverSummary.vue";
 import ElectricDozerSummary from "@/components/Products/ElectricDozerSummary.vue";

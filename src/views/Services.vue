@@ -1,7 +1,7 @@
 <template>
-  <Services />
+  <ServicesSummary />
 </template>
 
 <script lang="ts" setup>
-import Services from '@/components/Services/ServicesSummary.vue'
+import ServicesSummary from '@/components/Services/ServicesSummary.vue'
 </script>

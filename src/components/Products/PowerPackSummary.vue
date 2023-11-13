@@ -14,7 +14,7 @@
         <v-col>
           Hydraulic Power Packs with Single section and Multi section Pumps can be made as per customer
           specifications. Axial Piston Pumps are...
-          <router-link to="/powerPackDetail">MORE</router-link>
+          <router-link to="/products/powerPackDetail">MORE</router-link>
         </v-col>
       </v-row>
     </v-card-text>
