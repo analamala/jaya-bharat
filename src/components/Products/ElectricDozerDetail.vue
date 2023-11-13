@@ -32,7 +32,7 @@
       <v-row>
         <v-col>
           <b>Specification:</b>
-          <ol className="mx-6">
+          <ol class="mx-6">
             <li><b>Overall Length:</b> 4000 mm (Appx)</li>
             <li><b>Overall Width:</b> 2500 mm</li>
             <li><b>Width over Tracks:</b> 1800 mm</li>
