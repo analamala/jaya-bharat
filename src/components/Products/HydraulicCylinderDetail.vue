@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-container fluid>
+    <v-container fluid="true">
       <v-row>
         <v-col>
           <h2>Hydraulic Cylinders</h2>
@@ -8,7 +8,7 @@
       </v-row>
       <v-row>
         <v-col>
-          <v-img src="@/assets/images/hydraulic-cylinder-product.png" width="380px" height="228px"></v-img>
+          <v-img src="@/assets/images/hydraulic-cylinder-product.png" width="380px" height="258px"></v-img>
         </v-col>
       </v-row>
       <v-row>

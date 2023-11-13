@@ -10,6 +10,8 @@
   <HydraulicCylinderDetail class="mt-2 mb-4"/>
   <v-divider></v-divider>
   <DrillAndBolterDetail class="mt-2 mb-4"/>
+  <v-divider></v-divider>
+  <PowerPackDetail class="mt-2 mb-4"/>
 </template>
 
 <script setup lang="ts">
@@ -19,4 +21,5 @@ import EquipmentRetrieverDetail from "@/components/Products/EquipmentRetrieverDe
 import ElectricDozerDetail from "@/components/Products/ElectricDozerDetail.vue";
 import HydraulicCylinderDetail from "@/components/Products/HydraulicCylinderDetail.vue";
 import DrillAndBolterDetail from "@/components/Products/DrillAndBolterDetail.vue";
+import PowerPackDetail from "@/components/Products/PowerPackDetail.vue";
 </script>

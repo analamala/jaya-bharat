@@ -58,6 +58,12 @@ const routes = [
           '@/components/products/DrillAndBolterDetail'),
       },
       {
+        path: 'powerPackDetail',
+        name: 'PowerPackDetail',
+        component: () => import(/* webpackChunkName: "powerPackDetail" */
+          '@/components/products/PowerPackDetail'),
+      },
+      {
         path: 'services',
         name: 'Services',
         component: () => import(/* webpackChunkName: "services" */ '@/views/Services.vue'),

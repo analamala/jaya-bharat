@@ -25,6 +25,9 @@
           <v-col>
             <DrillAndBolterSummary />
           </v-col>
+          <v-col>
+            <PowerPackSummary />
+          </v-col>
         </v-row>
       </v-container>
     </v-card-text>
@@ -40,4 +43,5 @@ import EquipmentRetrieverSummary from "@/components/Products/EquipmentRetrieverS
 import ElectricDozerSummary from "@/components/Products/ElectricDozerSummary.vue";
 import HydraulicCylinderSummary from "@/components/Products/HydraulicCylinderSummary.vue";
 import DrillAndBolterSummary from "@/components/Products/DrillAndBolterSummary.vue";
+import PowerPackSummary from "@/components/Products/PowerPackSummary.vue";
 </script>

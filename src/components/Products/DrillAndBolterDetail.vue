@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-container fluid>
+    <v-container fluid="true">
       <v-row>
         <v-col>
           <h2>Hydraulic Roof Drill & Bolter</h2>

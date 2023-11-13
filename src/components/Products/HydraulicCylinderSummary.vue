@@ -5,7 +5,7 @@
     <v-card-text>
       <v-row>
         <v-col>
-          <v-img width="210" height="125px"
+          <v-img width="184" height="125px"
                  src="@/assets/images/hydraulic-cylinder-product.png">
           </v-img>
         </v-col>
