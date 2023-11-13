@@ -23,6 +23,7 @@
       </router-link>
     </v-btn>
     <v-btn>
+      <v-icon class="mr-1">mdi-phone</v-icon>
       <router-link class="text-black" to="/contact">
         CONTACT
       </router-link>

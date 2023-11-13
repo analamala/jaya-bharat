@@ -1,5 +1,5 @@
 <template>
-  <v-card flat>
+  <v-card flat="true">
     <v-card-title class="text-center">
       <v-icon class="mr-1"><ProductsIcon/></v-icon>
       OUR PRODUCTS
