@@ -12,9 +12,10 @@
             <v-card-text>
               <p>Plot # 157, A.P.I.I.C Industrial Park </p>
               <p>Cherlapally Phase-III, Hyderabad-500051</p>
-              <br>
-              <p>Telephone: +91 4027262600</p>
-              <br>
+              <br/>
+              <p>Office: +91 4027262600</p>
+              <p>WhatsApp: +91 9949665509</p>
+              <br/>
               <p>Email: jbeqp@yahoo.com</p>
             </v-card-text>
           </v-card>
